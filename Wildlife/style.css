@@ -1,0 +1,314 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+ /* интерактив */
+ .nav>li:hover, button:hover, .navFooter>li:hover, .social>ul>li:hover {
+    transform: scale(1.2);
+	transition: 0.3s all;
+}
+
+.btn:hover, .btnEmail:hover {
+    border: 2px solid #E39128;
+    background-color: #E39128;
+}
+.btn:active {
+    border: 2px solid #8F5613;
+    background-color: #8F5613;
+}
+
+/* Первая секция */
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner {
+    background-image: url(assets/BannerWithFox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #f7f7f7;
+    padding-bottom: 349px;
+    background-color: #02160b
+}
+
+h1, .nameLogo {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-top: 19px;
+}
+
+.nav {
+    padding-top: 24px;
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    align-items: center;
+    margin: 0;
+}
+
+.nav>li {
+    margin-left: 65px;
+    position: relative;
+}
+.nav>li>a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+.nav>li:last-child {
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 120px;
+    padding: 11px 23px 9px 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #CD6326;
+    letter-spacing: 2px;
+    padding-top: 128px;
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+.discription {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    max-width: 274px;
+    line-height: 27px;
+    margin: 0;
+}
+
+.btn {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #f7f7f7;
+    text-align: center;
+    padding: 15px 42px;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    background-color: #CD6326;
+    margin-top: 49px;
+}
+
+/* Вторая секция (Раздел main) */
+
+.main {
+    background-color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    padding-top: 120px;
+    padding-bottom: 239px;
+}
+
+.titleArticle {
+    font-weight: 400;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    line-height: 72px;
+    margin: 0;
+
+}
+
+.breakingNews {
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #f7f7f7;
+    font-style: normal;
+    width: 300px;
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-weight: 400;
+    font-size: 17px;
+    color: #f7f7f7;
+    width: 300px;
+    text-align: center;
+    line-height: 27px;
+}
+
+figure {
+    margin: 0;
+    height: 360px;
+}
+
+.textOnCapture {
+    position: relative;
+    bottom: 146px;
+}
+
+.btnLeft {
+    background: url(assets/LeftButtomArrow.svg);
+    height: 70px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+    border: none;
+}
+.btnLeft:focus {
+    outline: none;
+}  
+
+.btnRight {
+    background: url(assets/RightButtomArrow.svg);
+    height: 70px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+    border: none;
+}
+.btnRight:focus {
+    outline: none;
+    
+}  
+
+.mainArticle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainArticle>button {
+    position: relative;
+    top: 146px;
+}
+
+
+/* форма */
+h3 {
+    font-weight: 400;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    margin: 244px 0 64px 0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.email {
+    width: 522px;
+    height: 58px;
+    background: transparent;
+    border: 1px solid #666;
+    border-right: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    color: #666;
+    padding-left: 15px;
+}
+
+.btnEmail {
+    width: 122px;
+    height: 62px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    color: #f7f7f7;
+}
+
+/* Footer (Подвал) */
+
+footer {
+    background-image: url(assets/RectangleFooterCapture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #f7f7f7;
+    background-color: #181617;
+    padding-top: 143px;
+    padding-bottom: 140px;
+}
+
+.navFooter {
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.navFooter>li:first-child {
+    padding-left: 37px;
+}
+
+.navFooter>li {
+    padding-left: 88px;
+}
+
+.navFooter>li>a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.social>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.social>ul>li {
+    margin-left: 26px;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div > div > div.logo {
+    padding-top: 0;
+}
